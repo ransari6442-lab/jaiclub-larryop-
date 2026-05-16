@@ -1,0 +1,114 @@
+<style>
+    :root {
+        --dark-bg: #0A0A0A; /* Deep Black Background */
+        --gold-accent: #FFD700;
+        --cta-green: #38A169;
+        --text-light: #FFFFFF; /* Pure White Text */
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--dark-bg);
+        color: var(--text-light);
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        overflow-x: hidden;
+    }
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #1C1C1C; /* Deep Charcoal Container */
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 0 35px rgba(255, 255, 255, 0.05); /* Subtle white glow */
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        color: var(--gold-accent);
+        font-size: 2.2em;
+        margin: 10px 0;
+        text-shadow: 0 0 8px rgba(255, 215, 0, 0.7); /* Thoda zyada chamak */
+    }
+    h2 {
+        color: #C0C0C0;
+        font-size: 1.1em;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    /* Font color for general text is now pure white from body selector */
+    
+    .vip-list {
+        list-style: none;
+        padding: 0;
+        margin: 25px 0 40px 0;
+        text-align: left;
+    }
+    .vip-list li {
+        background: #2A2A2A; /* Darker background for list items */
+        padding: 12px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        font-size: 1.1em;
+        font-weight: 500;
+        border-left: 5px solid var(--cta-green);
+    }
+    .vip-list li span {
+        color: var(--gold-accent);
+        margin-right: 10px;
+    }
+    
+    /* CTA Button Styling */
+    .cta-button {
+        display: inline-block;
+        padding: 15px 40px;
+        background-color: var(--cta-green);
+        color: white !important;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 1.4em;
+        box-shadow: 0 4px 20px rgba(56, 161, 105, 0.9); /* Enhanced button shadow */
+        transition: transform 0.2s, background-color 0.2s;
+        text-transform: uppercase;
+    }
+    .cta-button:hover {
+        background-color: #2F855A;
+        transform: translateY(-3px); /* Thoda zyada lift */
+        box-shadow: 0 8px 25px rgba(56, 161, 105, 1);
+    }
+    
+    /* Countdown Styling */
+    .countdown-box {
+        background-color: #1A1A1A; /* Very Dark Background for countdown */
+        padding: 15px;
+        margin: 30px 0;
+        border: 2px solid var(--gold-accent);
+        border-radius: 10px;
+    }
+    .countdown-box strong {
+        color: var(--gold-accent);
+        font-size: 1.5em;
+        display: block;
+        margin-bottom: 8px;
+    }
+    #timer {
+        font-size: 2.5em;
+        color: #FF4500; /* Orange Red for high urgency */
+        font-weight: 700;
+        margin-top: 5px;
+    }
+    .important-note {
+        background-color: #1C1C1C;
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 30px;
+        color: var(--text-light);
+        font-size: 0.9em;
+        font-style: italic;
+    }
+</style>
